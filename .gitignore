@@ -10,3 +10,4 @@ test*
 .pypirc
 /dist/
 tmp*
+/docs/_build/

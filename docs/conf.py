@@ -3,10 +3,10 @@ import re
 import sys
 
 
-sys.path.insert(0, os.path.abspath("../../src"))
+sys.path.insert(0, os.path.abspath("../src"))
 
 def _get_version() -> str:
-    init_path = os.path.join(os.path.dirname(__file__), "../../src/mcal/__init__.py")
+    init_path = os.path.join(os.path.dirname(__file__), "../src/mcal/__init__.py")
     with open(init_path) as f:
         match = re.search(r'^__version__\s*=\s*["\']([^"\']+)["\']', f.read(), re.MULTILINE)
     if match:
@@ -30,8 +30,11 @@ extensions = [
     "sphinx_new_tab_link",
 ]
 
+# Optional dependencies not installed in the docs build environment
+autodoc_mock_imports = ["pyscf", "gpu4pyscf", "opi"]
+
 templates_path = ["_templates"]
-exclude_patterns = []
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 
 
@@ -39,4 +42,4 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = "furo"
-html_static_path = ["_static"]
+html_static_path = []
