@@ -2,7 +2,7 @@
 [![Python](https://img.shields.io/badge/python-3.11%20or%20newer-blue)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PyPI](https://img.shields.io/pypi/v/yu-mcal)](https://pypi.org/project/yu-mcal/)
-[![docs](https://img.shields.io/badge/docs-here-11419572)](https://matsui-lab-yamagata.github.io/mcal/)
+[![docs](https://img.shields.io/badge/docs-here-11419572)](https://matsui-lab-yamagata-univ.github.io/mcal/)
 
 
 # 概要
@@ -235,7 +235,7 @@ mcal xxx.cif p --orca -c 8 --mpi /path/to/openmpi
 
 #### `--no-monomer-cache`
 モノマーキャッシュのみを無効にします。ペアスクリーニングは有効のままです。すべてのモノマーSCF計算が、過去の計算結果を再利用せずゼロから実行されます。
-<a href="https://github.com/matsui-lab-yamagata/tcal" target="_blank">tcal</a>を使用して移動積分の詳細な解析をする場合、このオプションをつけることを推奨します。
+<a href="https://github.com/matsui-lab-yamagata-univ/tcal" target="_blank">tcal</a>を使用して移動積分の詳細な解析をする場合、このオプションをつけることを推奨します。
 - **例**: `mcal xxx.cif p --no-monomer-cache`
 
 #### `--cellsize <number>`
