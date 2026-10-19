@@ -416,7 +416,7 @@ Disable only monomer caching. Pair screening remains active.
 All monomer SCF calculations are performed from scratch instead of reusing
 previously computed result files.
 When performing detailed transfer integral analysis using
-`tcal <https://github.com/matsui-lab-yamagata/tcal>`_, it is recommended to use this option.
+`tcal <https://github.com/matsui-lab-yamagata-univ/tcal>`_, it is recommended to use this option.
 
 * **Example**: ``mcal xxx.cif p --no-monomer-cache``
 
@@ -728,7 +728,7 @@ License
 
 This project is released under the MIT License.
 
-For more details, see the `LICENSE file on GitHub <https://github.com/matsui-lab-yamagata/mcal/blob/main/LICENSE>`_.
+For more details, see the `LICENSE file on GitHub <https://github.com/matsui-lab-yamagata-univ/mcal/blob/main/LICENSE>`_.
 
 Acknowledgements
 ================

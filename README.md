@@ -2,7 +2,7 @@
 [![Python](https://img.shields.io/badge/python-3.11%20or%20newer-blue)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PyPI](https://img.shields.io/pypi/v/yu-mcal)](https://pypi.org/project/yu-mcal/)
-[![docs](https://img.shields.io/badge/docs-here-11419572)](https://matsui-lab-yamagata.github.io/mcal/)
+[![docs](https://img.shields.io/badge/docs-here-11419572)](https://matsui-lab-yamagata-univ.github.io/mcal/)
 
 # Overview
 `mcal` is a tool for calculating mobility tensors of organic semiconductors. It calculates transfer integrals and reorganization energy from crystal structures, and determines mobility tensors considering anisotropy and path continuity.
@@ -234,7 +234,7 @@ Disable all speedup processing and calculate transfer integrals for all pairs fr
 
 #### `--no-monomer-cache`
 Disable only monomer caching. Pair screening remains active. All monomer SCF calculations are performed from scratch instead of reusing previously computed result files.
-When performing detailed transfer integral analysis using <a href="https://github.com/matsui-lab-yamagata/tcal" target="_blank">tcal</a>, it is recommended to use this option.
+When performing detailed transfer integral analysis using <a href="https://github.com/matsui-lab-yamagata-univ/tcal" target="_blank">tcal</a>, it is recommended to use this option.
 - **Example**: `mcal xxx.cif p --no-monomer-cache`
 
 #### `--cellsize <number>`
