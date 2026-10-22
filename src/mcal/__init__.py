@@ -1,4 +1,4 @@
-__version__ = "0.8.2"
+__version__ = "0.8.3"
 __date__ = "2026/10/22"
 
 from .calculations.hopping_mobility_model import (
