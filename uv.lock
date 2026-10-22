@@ -1,10 +1,13 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.11"
 resolution-markers = [
     "python_full_version >= '3.12'",
     "python_full_version < '3.12'",
 ]
+
+[manifest]
+constraints = [{ name = "certifi", specifier = ">=2026.10.19" }]
 
 [[package]]
 name = "accessible-pygments"
@@ -106,11 +109,11 @@ wheels = [
 
 [[package]]
 name = "certifi"
-version = "2025.11.12"
+version = "2026.10.19"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/a2/8c/58f469717fa48465e4a50c014a0400602d3c437d7c0c468e17ada824da3a/certifi-2025.11.12.tar.gz", hash = "sha256:d8ab5478f2ecd78af242878415affce761ca6bc54a22a27e026d7c25357c3316", size = 160538, upload-time = "2025-11-12T02:54:51.517Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a6/bd/1436c50cc46699de0230fbaacc1d1de7bfec413176099949e9d5112e88f2/certifi-2026.10.19.tar.gz", hash = "sha256:035c1e85572b141bf1c3a3eff0e33a8eb74917522f2559075ff8d2fea780a1ae", size = 137598, upload-time = "2026-10-20T02:24:16.604Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/70/7d/9bc192684cea499815ff478dfcdc13835ddf401365057044fb721ec6bddb/certifi-2025.11.12-py3-none-any.whl", hash = "sha256:97de8790030bbd5c2d96b7ec782fc2f7820ef8dba6db909ccf95449f2d062d4b", size = 159438, upload-time = "2025-11-12T02:54:49.735Z" },
+    { url = "https://files.pythonhosted.org/packages/c4/51/29046e48f693c54e5b7412216d447a1d8362c9653148d98c02cdf65fa733/certifi-2026.10.19-py3-none-any.whl", hash = "sha256:42d35340cc5b9ba78e818ddbff0c5b1c2b779de448a340fd1b989f5fa8670e1b", size = 136464, upload-time = "2026-10-20T02:24:15.072Z" },
 ]
 
 [[package]]
@@ -2091,7 +2094,7 @@ requires-dist = [
     { name = "pyscf", marker = "extra == 'gpu4pyscf-cuda12'", specifier = ">=2.12.1" },
     { name = "pyscf", marker = "extra == 'gpu4pyscf-cuda13'", specifier = ">=2.12.1" },
     { name = "pyscf", marker = "extra == 'pyscf'", specifier = ">=2.12.1" },
-    { name = "yu-tcal", specifier = ">=5.0.2" },
+    { name = "yu-tcal", specifier = ">=5.0.5" },
 ]
 provides-extras = ["gpu4pyscf-cuda11", "gpu4pyscf-cuda12", "gpu4pyscf-cuda13", "orca", "pyscf"]
 
@@ -2106,12 +2109,12 @@ dev = [
 
 [[package]]
 name = "yu-tcal"
-version = "5.0.2"
+version = "5.0.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "numpy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c7/e9/cbe0d9655581dbfc9ea22525539a17863b900ea824477b50a32beb1bd1d3/yu_tcal-5.0.2.tar.gz", hash = "sha256:20917074ecd086974934d20f302a0335ab27f4127f7c81c7e9ee75d1c1c8c88d", size = 54792230, upload-time = "2026-06-17T16:25:45.007Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/58/0b/02f22c6cfd3274f9e3f709b7ad7cdd763660b63bdad7bbc83b0cad6955a7/yu_tcal-5.0.5.tar.gz", hash = "sha256:2050f22e78f9e9487e25152e08d7a0393076c6ad07ac9216c35456907fce12fd", size = 54664696, upload-time = "2026-10-22T02:01:58.56Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/85/6c/cfe413ddd3a307a9aa1d3b67d06dae78c3480662f11f46b5ae131665a0e3/yu_tcal-5.0.2-py3-none-any.whl", hash = "sha256:0a86de0053b6f7fa977f403acc6a96be08b8114fc9a56c4b86661752c1cafb6c", size = 25913, upload-time = "2026-06-17T16:25:24.046Z" },
+    { url = "https://files.pythonhosted.org/packages/0b/0b/a40405714f2b91d38c946eb6272ab5a1261f31fb0e5a60bec9ab4482396c/yu_tcal-5.0.5-py3-none-any.whl", hash = "sha256:704deb51ad49eea021488aa3bc12b9596d427fa9764091245e001eed97ac08e7", size = 26009, upload-time = "2026-10-22T02:01:34.616Z" },
 ]
