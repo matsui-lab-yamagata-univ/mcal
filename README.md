@@ -12,7 +12,7 @@
 * NumPy
 * Pandas
 * Matplotlib
-* yu-tcal>=5.0.2
+* yu-tcal>=5.0.5
 
 ## Quantum Chemistry Calculation Tools
 At least one of the following is required:
@@ -42,16 +42,16 @@ pip install "yu-mcal[pyscf]"
 nvcc --version
 ```
 
-### 2. Install tcal with GPU acceleration
-If your CUDA Toolkit version is 13.x, install tcal with GPU acceleration:  
+### 2. Install mcal with GPU acceleration
+If your CUDA Toolkit version is 13.x, install mcal with GPU acceleration:  
 ```
 pip install "yu-mcal[gpu4pyscf-cuda13]"
 ```
-If your CUDA Toolkit version is 12.x, install tcal with GPU acceleration:  
+If your CUDA Toolkit version is 12.x, install mcal with GPU acceleration:  
 ```
 pip install "yu-mcal[gpu4pyscf-cuda12]"
 ```
-If your CUDA Toolkit version is 11.x, install tcal with GPU acceleration:  
+If your CUDA Toolkit version is 11.x, install mcal with GPU acceleration:  
 ```
 pip install "yu-mcal[gpu4pyscf-cuda11]"
 ```
@@ -151,7 +151,7 @@ Use PySCF instead of Gaussian for all calculations. Requires `yu-mcal[pyscf]`.
 - **Example**: `mcal xxx.cif p --pyscf`
 
 #### `--gpu4pyscf`
-Use GPU acceleration via gpu4pyscf. Automatically enables PySCF mode (no need to specify `--pyscf`). Requires `yu-mcal[gpu4pyscf-cuda11]` or `yu-mcal[gpu4pyscf-cuda12]`.
+Use GPU acceleration via gpu4pyscf. Automatically enables PySCF mode (no need to specify `--pyscf`). Requires `yu-mcal[gpu4pyscf-cuda11]`, `yu-mcal[gpu4pyscf-cuda12]`, or `yu-mcal[gpu4pyscf-cuda13]`.
 - **Example**: `mcal xxx.cif p --gpu4pyscf`
 
 #### `--cart`
