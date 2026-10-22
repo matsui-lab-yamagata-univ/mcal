@@ -11,3 +11,4 @@ test*
 /dist/
 tmp*
 /docs/_build/
+.claude/
