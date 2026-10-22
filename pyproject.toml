@@ -7,7 +7,7 @@ dependencies = [
     "matplotlib>=3.9.4",
     "numpy>=2.0.2",
     "pandas>=2.3.3",
-    "yu-tcal>=5.0.5",
+    "yu-tcal>=5.0.6",
 ]
 authors = [
     {name = "Koki Ozawa"},
@@ -38,6 +38,9 @@ path = "src/mcal/__init__.py"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/mcal"]
+
+[tool.hatch.build.targets.sdist]
+exclude = ["/.github"]
 
 [dependency-groups]
 dev = [

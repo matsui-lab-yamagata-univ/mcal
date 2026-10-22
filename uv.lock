@@ -2186,7 +2186,7 @@ requires-dist = [
     { name = "pyscf", marker = "extra == 'gpu4pyscf-cuda12'", specifier = ">=2.12.1" },
     { name = "pyscf", marker = "extra == 'gpu4pyscf-cuda13'", specifier = ">=2.12.1" },
     { name = "pyscf", marker = "extra == 'pyscf'", specifier = ">=2.12.1" },
-    { name = "yu-tcal", specifier = ">=5.0.5" },
+    { name = "yu-tcal", specifier = ">=5.0.6" },
 ]
 provides-extras = ["gpu4pyscf-cuda11", "gpu4pyscf-cuda12", "gpu4pyscf-cuda13", "orca", "pyscf"]
 
@@ -2201,13 +2201,13 @@ dev = [
 
 [[package]]
 name = "yu-tcal"
-version = "5.0.5"
+version = "5.0.6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "numpy", version = "2.4.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
     { name = "numpy", version = "2.5.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/58/0b/02f22c6cfd3274f9e3f709b7ad7cdd763660b63bdad7bbc83b0cad6955a7/yu_tcal-5.0.5.tar.gz", hash = "sha256:2050f22e78f9e9487e25152e08d7a0393076c6ad07ac9216c35456907fce12fd", size = 54664696, upload-time = "2026-10-22T02:01:58.56Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/5a/95/4a29d87b2e37ffb546e99a103894ca7f4f20a62e40effa1f31fc341975cc/yu_tcal-5.0.6.tar.gz", hash = "sha256:0860bef8e7ada2f34d6472c3dbd2a9d210463a6e184df833e65e18d939a6c2e7", size = 54640459, upload-time = "2026-10-22T07:44:11.114Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0b/0b/a40405714f2b91d38c946eb6272ab5a1261f31fb0e5a60bec9ab4482396c/yu_tcal-5.0.5-py3-none-any.whl", hash = "sha256:704deb51ad49eea021488aa3bc12b9596d427fa9764091245e001eed97ac08e7", size = 26009, upload-time = "2026-10-22T02:01:34.616Z" },
+    { url = "https://files.pythonhosted.org/packages/8b/94/0bb2256c596f328fea5129ecf7383189ac87a50c5d4162c571917a9de7e7/yu_tcal-5.0.6-py3-none-any.whl", hash = "sha256:f1ad6db361fd4e2e3d19aaad51339e3c4f466f377818fd752bfe9ba9016d1ac3", size = 26011, upload-time = "2026-10-22T07:44:08.866Z" },
 ]
