@@ -270,7 +270,7 @@ Use PySCF instead of Gaussian for all calculations. Requires ``yu-mcal[pyscf]``.
 ^^^^^^^^^^^^^^^^
 
 Use GPU acceleration via gpu4pyscf. Automatically enables PySCF mode (no need to specify ``--pyscf``).
-Requires ``yu-mcal[gpu4pyscf-cuda11]`` or ``yu-mcal[gpu4pyscf-cuda12]``.
+Requires ``yu-mcal[gpu4pyscf-cuda11]``, ``yu-mcal[gpu4pyscf-cuda12]``, or ``yu-mcal[gpu4pyscf-cuda13]``.
 
 * **Example**: ``mcal xxx.cif p --gpu4pyscf``
 

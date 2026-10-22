@@ -152,7 +152,7 @@ Gaussianの代わりにPySCFを使用して計算します。`yu-mcal[pyscf]`の
 - **例**: `mcal xxx.cif p --pyscf`
 
 #### `--gpu4pyscf`
-gpu4pyscfによるGPUアクセラレーションを使用します。`--pyscf`を指定しなくても自動的にPySCFモードが有効になります。`yu-mcal[gpu4pyscf-cuda11]`または`yu-mcal[gpu4pyscf-cuda12]`のインストールが必要です。
+gpu4pyscfによるGPUアクセラレーションを使用します。`--pyscf`を指定しなくても自動的にPySCFモードが有効になります。`yu-mcal[gpu4pyscf-cuda11]`、`yu-mcal[gpu4pyscf-cuda12]`、または`yu-mcal[gpu4pyscf-cuda13]`のインストールが必要です。
 - **例**: `mcal xxx.cif p --gpu4pyscf`
 
 #### `--cart`
